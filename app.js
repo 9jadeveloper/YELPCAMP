@@ -20,7 +20,7 @@ var authRoute        = require("./routes/auth"),
     campgroundRoute  = require("./routes/campgrounds"),
     commentRoute     = require("./routes/comments");
 
-// assign mongoose promise library and connect to database
+// assign mongoose promise library and connect to the database
 mongoose.Promise = global.Promise;
 
 const databaseUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/yelp_camp';
