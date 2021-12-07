@@ -66,5 +66,5 @@ app.use('/campgrounds', campgroundRoute);
 app.use('/campgrounds/:id/comments', commentRoute);
 
 app.listen(process.env.PORT, process.env.IP, function(){
-    console.log("The yelpcamp server has started!!");
+    console.log("The yelpcamp server has gbera!!");
 });
